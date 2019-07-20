@@ -32,17 +32,19 @@ public class adactintest {
 		Select ho = new Select(h);
 
 		ho.selectByValue("Hotel creek");
-
+		
 		WebElement r = driver.findElement(By.id("room_type"));
-
+		
 		Select ro = new Select(r);
-
+		
 		ro.selectByValue("Standard");
-
+		
+		System.out.println();
 		int a = 10;
 		int b = 20;
 		System.out.println(a + b);
-
+		
+	
 	}
 
 }
